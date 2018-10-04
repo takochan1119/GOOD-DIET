@@ -1,0 +1,200 @@
+
+body {
+  font-family: "Avenir Next";
+   margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  height: 65px;
+  width: 100%;
+  background-color: #239b76;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  margin: 0;
+}
+
+.header-logo {
+  float: left;
+  padding-left: 20px;
+  color: white;
+  font-size: 22px;
+  line-height: 64px;
+}
+
+
+.header-logo a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+}
+
+.header-menus {
+  float: right;
+  padding-right: 20px;
+  list-style: none;
+}
+
+.header-menus li {
+  float: left;
+  line-height: 64px;
+  font-size: 13px;
+  color: white;
+  padding-left: 15px;
+}
+
+.header-menus a {
+  float: left;
+  font-size: 13px;
+  color: white;
+}
+
+.header-menus .fa {
+  padding-right: 5px;
+}
+
+.header-menus input[type="submit"] {
+  padding: 0 20px;
+  float: left;
+  line-height: 64px;
+  color: white;
+  margin: 0;
+  font-size: 13px;
+}
+
+.top-wrapper {
+  padding: 150px 0 200px 0;
+  background-image: url(/top.jpg);
+  background-size: contain;
+  color: white;
+  text-align: center;
+}
+
+
+.container {
+  width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.top-wrapper h1 {
+  font-size: 45px;
+  letter-spacing: 5px;
+}
+
+.top-wrapper p {
+  margin-bottom: 15px;
+}
+
+.btn-wrapper {
+  margin: 20px 0;
+}
+
+.btn-wrapper p {
+  margin: 10px 0;
+}
+
+
+.btn:hover{
+  opacity:1;
+}
+
+
+.btn {
+  padding: 8px 24px;
+  color: 	crimson;
+  display: inline-block;
+  opacity: 0.9;
+  border-radius: 4px;
+}
+
+
+.signup {
+  padding: 10px 30px;
+  background-color: #239b76;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-size: 20px;
+}
+
+.facebook{
+   background-color:#239b76;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.lesson-wrapper {
+  height: 500px;
+  padding-bottom: 80px;
+  background-color: #f7f7f7;
+  text-align: center;
+}
+
+.heading {
+  padding-top: 60px;
+  padding-bottom: 30px;
+  color: #5f5d60;
+}
+
+.heading h2 {
+  font-weight: normal;
+  font-size: 30px;
+}
+
+.lesson{
+  float: left;
+  width: 20%;
+}
+
+.txt-contents {
+  width: 80%;
+  display: inline-block;
+  margin-top: 20px;
+  font-size: 15px;
+  color: black;
+  text-align: left;
+}
+
+.message-wrapper {
+  padding-bottom: 80px;
+  text-align: center;
+}
+
+.heading h3 {
+  font-weight: normal;
+}
+
+.message {
+  background-color: #239b76;
+  padding: 15px 40px;
+  
+  box-shadow: 0 7px #1a7940;
+  cursor: pointer;
+}
+
+.message:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+.footer-container{
+  padding-top: 30px;
+  float: left;
+}
+
+footer h1{
+  margin-bottom: 0;
+}
+
+footer p {
+  color: #b3aeb5;
+  font-size: 12px;
+  margin-top: 0;
+}
+
+
